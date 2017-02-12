@@ -144,7 +144,7 @@ export class SeedConfig {
    * `index.html`.
    * @type {string}
    */
-  APP_TITLE = 'Welcome to angular2-seed!';
+  APP_TITLE = 'Welcome to Pintrip';
 
   /**
    * The base folder of the applications source files.
@@ -338,6 +338,7 @@ export class SeedConfig {
       '@angular/platform-browser-dynamic/testing':
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
+      'angular2-google-maps/core': 'node_modules/angular2-google-maps/core/core.umd.js',
 
       'rxjs/*': 'node_modules/rxjs/*',
       'app/*': '/app/*',
@@ -411,6 +412,86 @@ export class SeedConfig {
       },
       'rxjs': {
         main: 'Rx.js',
+        defaultExtension: 'js'
+      },
+      'angular2-google-maps/core': {
+        main: 'core.umd.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/accordion': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/alert': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/buttons': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/carousel': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/collapse': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/component-loader': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/datepicker': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/dropdown': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/modal': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/pagination': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/popover': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/positioning': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/progressbar': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/rating': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/tabs': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/timepicker': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/tooltip': {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'ng2-bootstrap/typeahead': {
+        main: 'index.js',
         defaultExtension: 'js'
       }
     }
